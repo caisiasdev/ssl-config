@@ -68,7 +68,7 @@ openssl x509 -in selfsigned.crt -noout -text | findstr /C:"DNS"
 ```
 This result should looks similar to the following
 ```text
-DNS:localhost, IP Address:100.64.0.9, IP Address:100.64.0.10, IP Address:100.64.0.11, IP Address:127.0.0.1
+DNS:localhost, IP Address:100.64.0.9, IP Address:100.64.0.10, IP Address:127.0.0.1
 ```
 New run the following command to Convert .CRT file to .CER file
 ```text
