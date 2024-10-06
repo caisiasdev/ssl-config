@@ -90,7 +90,7 @@ Now, your folder should contain four files.
 
 Upload `selfsigned.key` and `selfsigned.crt` to your web-server. You can save this 2 files to any location.
 
-_In this example the files are saved at `home/ssl/` directory_
+_In this example the files are saved at `/home/ssl/` directory_
 
 Now open nginx defaulf sites configuration file and add the following code.
 
