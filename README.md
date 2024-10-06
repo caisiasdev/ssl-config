@@ -36,12 +36,9 @@ Open notepad and paste the following code and save it as `openssl.cnf` in the sa
 
     [alt_names]
     DNS.1 = localhost
-    IP.1  = 100.64.0.9
-    IP.2  = 100.64.0.10
-    IP.3  = 100.64.0.11
-    IP.4  = 100.64.0.12
-    IP.5  = 100.64.0.13
-    IP.6  = 127.0.0.1
+    IP.1  = 100.64.0.9 //IP Address of Web-server
+    IP.2  = 100.64.0.10 //IP Address of Another Web-server
+    IP.3  = 127.0.0.1
 ```
 
 ### 3. Create a SSL Certificate
@@ -71,7 +68,7 @@ openssl x509 -in selfsigned.crt -noout -text | findstr /C:"DNS"
 ```
 This result should looks similar to the following
 ```text
-DNS:localhost, IP Address:100.64.0.9, IP Address:100.64.0.10, IP Address:100.64.0.11, IP Address:100.64.0.12, IP Address:100.64.0.13, IP Address:127.0.0.1
+DNS:localhost, IP Address:100.64.0.9, IP Address:100.64.0.10, IP Address:100.64.0.11, IP Address:127.0.0.1
 ```
 New run the following command to Convert .CRT file to .CER file
 ```text
