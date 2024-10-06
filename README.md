@@ -1,4 +1,4 @@
-# SECURING WEB SERVER/API SERVER USING SSL SELF SIGNED (Development) 
+# SECURING LOCAL WEB SERVER/API USING SELF SIGNED SSL CERTIFICATE 
 
 Open Command Prompt and Type `openssl version` to check whether openssl is install in your system or not.
 
