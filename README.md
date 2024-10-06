@@ -1,6 +1,6 @@
 # SECURING LOCAL WEB SERVER/API USING SELF SIGNED SSL CERTIFICATE 
 
-Open Command Prompt and Type `openssl version` to check whether openssl is install in your system or not.
+Open Command Prompt and Type `openssl version` to check whether openssl is install in your system or not. You can download OpenSSL from https://sourceforge.net/projects/openssl-for-windows/
 
 ### 1. Generete Private Key
 
