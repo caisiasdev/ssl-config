@@ -1,0 +1,2 @@
+# ssl-config
+SSL SELF SIGNED - CONFIGURATION 
