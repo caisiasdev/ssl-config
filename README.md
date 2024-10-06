@@ -26,8 +26,8 @@ Open notepad and paste the following code and save it as `openssl.cnf` in the sa
     C  = IN
     ST = Mizoram
     L  = Aizawl
-    O  = DLR&S, Govt of Mizoram
-    CN = Property Card
+    O  = Example Organisation
+    CN = Example CN
 
     [v3_req]
     keyUsage = critical, digitalSignature, keyEncipherment
